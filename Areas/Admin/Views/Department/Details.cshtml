@@ -1,0 +1,17 @@
+﻿@model Departament
+<div class="container">
+    <div class="card" style="width: 18rem;">
+
+
+        <img src="~/img/product/@Model.ImageURl" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+            </div>
+            
+            <div class="card-body">
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <a asp-action="Index" class="btn btn-light">Cancel</a>
+            </div>
+        
+    </div>
+</div>
